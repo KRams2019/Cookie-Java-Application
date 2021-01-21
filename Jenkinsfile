@@ -4,7 +4,7 @@ node {
 
      
   stage('Git-Checkout') {
-  git branch: 'master', credentialsId: '01-git', url: 'https://github.com/KRams2019/Cookie-API-Application.git'
+  git branch: 'master', credentialsId: '01-git', url: 'https://github.com/KRams2019/Cookie-Java-Application.git'
   }
  
  def project_path=""
