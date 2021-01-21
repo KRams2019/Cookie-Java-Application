@@ -28,17 +28,17 @@
 
 - name: Copy Jar file
   copy:
-   src: /root/.jenkins/workspace/Cookie-Java-Application/target/CookieProblem-0.0.1-SNAPSHOT.jar
+   src: /root/.jenkins/workspace/Cookie-Api-Project/target/CookieProblem-0.0.1-SNAPSHOT.jar
    dest: /home/cookie-api/target
 
 - name: Copy Dockerfile
   copy:
-   src: /root/.jenkins/workspace/Cookie-Java-Application/Dockerfile
+   src: /root/.jenkins/workspace/Cookie-Api-Project/Dockerfile
    dest: /home/cookie-api/
 
 - name: Copy Docker-Compose
   copy:
-   src: /root/.jenkins/workspace/Cookie-Java-Application/docker-compose.yml
+   src: /root/.jenkins/workspace/Cookie-Api-Project/docker-compose.yml
    dest: /home/cookie-api/
 
 - name: Run Docker Compose
