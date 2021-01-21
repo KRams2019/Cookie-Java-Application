@@ -1,0 +1,6 @@
+
+hosts: all
+name: "Cookie API Deployment"
+become: yes
+roles:
+ - cookie-api
