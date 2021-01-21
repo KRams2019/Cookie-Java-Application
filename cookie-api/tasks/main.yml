@@ -28,7 +28,7 @@
 
 - name: Copy Jar file
   copy:
-   src: /root/.jenkins/workspace/Cookie-Java-Application/target/*.jar
+   src: /root/.jenkins/workspace/Cookie-Java-Application/target/CookieProblem-0.0.1-SNAPSHOT.jar
    dest: /home/cookie-api/target
 
 - name: Copy Dockerfile
