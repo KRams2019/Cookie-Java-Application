@@ -7,7 +7,7 @@ node {
   git branch: 'master', credentialsId: '01-git', url: 'https://github.com/KRams2019/Cookie-API-Application.git'
   }
  
- def project_path="Cookie-Api-Project/"
+ def project_path=""
  
  dir(project_path) {
     
